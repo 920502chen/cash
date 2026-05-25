@@ -1,7 +1,0 @@
-streamlit
-pandas
-plotly
-pillow
-pytesseract
-opencv-python-headless
-python-dateutil
