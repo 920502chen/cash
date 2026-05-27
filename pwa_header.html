@@ -1,0 +1,21 @@
+<script>
+var link = document.createElement('link');
+link.rel = 'manifest';
+link.href = '/manifest.json';
+document.head.appendChild(link);
+
+var apple = document.createElement('link');
+apple.rel = 'apple-touch-icon';
+apple.href = '/icon.png';
+document.head.appendChild(apple);
+
+var meta = document.createElement('meta');
+meta.name = 'apple-mobile-web-app-capable';
+meta.content = 'yes';
+document.head.appendChild(meta);
+
+var meta2 = document.createElement('meta');
+meta2.name = 'apple-mobile-web-app-status-bar-style';
+meta2.content = 'black-translucent';
+document.head.appendChild(meta2);
+</script>
