@@ -29,7 +29,7 @@ GDRIVE_SETTINGS_FILENAME = "settings_backup.json"
 BACKUP_MIN_INTERVAL_SECONDS = 60  # 保留相容性；目前採用資料變更後立即備份
 GOOGLE_SCOPES = ["https://www.googleapis.com/auth/drive.file"]
 
-st.set_page_config(page_title="AI 帳單記帳助手", page_icon="🧾", layout="wide")
+st.set_page_config(page_title="懶人記帳", page_icon="icon.png", layout="wide")
 
 
 def get_conn():
